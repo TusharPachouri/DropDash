@@ -9,11 +9,11 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 
 # Load environment variables from .env file
-# load_dotenv()
+load_dotenv()
 
 # Use the environment variable
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
