@@ -42,7 +42,7 @@ python manage.py runserver
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/Home.png)
 
 ### Upload Success
 
