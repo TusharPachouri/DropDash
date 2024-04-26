@@ -33,7 +33,7 @@ SECRET_KEY = "django-insecure--u7(u@zkmo&rj)2#7tcct8b32z&um_rb@%jc)o1@6*65qx5n4)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 APPEND_SLASH = False
 
@@ -85,10 +85,10 @@ WSGI_APPLICATION = "dropDash.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    # "default": {
+    #     "ENGINE": "django.db.backends.sqlite3",
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
 }
 
 
