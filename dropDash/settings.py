@@ -33,7 +33,7 @@ SECRET_KEY = "django-insecure--u7(u@zkmo&rj)2#7tcct8b32z&um_rb@%jc)o1@6*65qx5n4)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','dropdash.onrender.com']
+ALLOWED_HOSTS = ['.vercel.app','dropdash.onrender.com', '127.0.0.1']
 
 APPEND_SLASH = False
 
